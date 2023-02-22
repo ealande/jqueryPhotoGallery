@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jquery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylessheet">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Photos Gallery</h1>
+            <button type="button">Add Image +</button>
+        </header>
+        <form>
+            <h2>Insert new Image</h2>
+            <input type="url" id="addressNewImage" required placeholder="Image URL"/>
+            <button type="submit">Add</button>
+            <button type="reset" id="cancelButton">Cancel</button>
+        </form>
+        <ul>
+            <li>
+                <img src="images/foto1.jpg" alt="little cat">
+                <div class="overlayImageLink">
+                    <a href="images/foto1.jpg" target="_blank">See the image in real size</a>
+                </div>
+                <li>
+                    <img src="images/foto2.jpg" alt="little cat">
+                    <div class="overlayImageLink">
+                        <a href="images/foto2.jpg" target="_blank">See the image in real size</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/foto3.jpg" alt="little cat">
+                    <div class="overlayImageLink">
+                        <a href="images/foto1.jpg" target="_blank">See the image in real size</a>
+                    </div>
+                </li>
+            </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="/JS/main.js"></script>
+    </body>
+</html>
